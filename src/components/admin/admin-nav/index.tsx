@@ -14,6 +14,7 @@ import { siteConfig } from "@/config/site.config";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { authClient } from "@/lib/auth/client";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const items = [
   { key: "dashboard", href: "/admin", icon: FiGrid, exact: true },
@@ -42,7 +43,17 @@ export function AdminNav({
   return (
     <aside className="border-b border-border bg-background lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-64 lg:shrink-0 lg:flex-col lg:border-b-0 lg:border-r">
       <div className="flex items-center justify-between p-4">
-        <p className="font-bold">{siteConfig.name}</p>
+        <p className="font-bold flex items-center gap-2 text-lg ">
+          {" "}
+          <Image
+            src="/logo.svg"
+            alt={`${siteConfig.name} logo`}
+            width={40}
+            height={40}
+            priority
+          />
+          {siteConfig.name}
+        </p>
         <div className="lg:hidden">
           <LocaleSwitcher />
         </div>
