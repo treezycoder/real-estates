@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -33,6 +33,15 @@ export async function generateMetadata({
     metadataBase: new URL(siteUrl()),
     title: { default: siteConfig.name, template: `%s | ${siteConfig.name}` },
     description: t("description"),
+    icons: {
+      icon: [
+        { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+        { url: "/favicon.svg", type: "image/svg+xml" },
+      ],
+      shortcut: "/favicon.ico",
+      apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
+    },
+    manifest: "/site.webmanifest",
     openGraph: {
       type: "website",
       siteName: siteConfig.name,
@@ -41,6 +50,10 @@ export async function generateMetadata({
     twitter: { card: "summary_large_image" },
   };
 }
+
+export const viewport: Viewport = {
+  themeColor: siteConfig.theme.primary,
+};
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
