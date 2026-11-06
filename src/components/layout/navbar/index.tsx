@@ -11,6 +11,7 @@ import { LocaleSwitcher } from "../locale-switcher";
 import { CurrencySwitcher } from "../currency-switcher";
 
 import Container from "@/components/ui/container";
+import Image from "next/image";
 
 export function Navbar() {
   const t = useTranslations("nav");
@@ -20,8 +21,15 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/80 backdrop-blur">
       <Container className="flex h-16 items-center justify-between">
-        <Link href="/" className="text-lg font-bold">
-          {siteConfig.name}
+        <Link href="/" className="flex items-center gap-2 text-lg font-bold">
+          <Image
+            src="/logo.svg"
+            alt={`${siteConfig.name} logo`}
+            width={40}
+            height={40}
+            priority
+          />
+          <span>{siteConfig.name}</span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
