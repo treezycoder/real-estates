@@ -1,0 +1,333 @@
+{
+  "meta": { "description": "Find your next home with us." },
+  "nav": {
+    "home": "Home",
+    "properties": "Properties",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Find the place you will call home",
+    "subtitle": "Browse trusted listings for sale and rent, curated by local experts.",
+    "cta": "Browse properties",
+    "contact": "Contact us"
+  },
+  "featured": {
+    "title": "Featured properties",
+    "subtitle": "Hand-picked homes and spaces our clients love.",
+    "viewAll": "View all properties"
+  },
+  "properties": {
+    "title": "Properties",
+    "subtitle": "Find the right property for sale or rent.",
+    "results": "{count, plural, one {# property found} other {# properties found}}",
+    "emptyTitle": "No properties match your search",
+    "emptyHint": "Try removing some filters or searching in another city.",
+    "forSale": "For sale",
+    "forRent": "For rent",
+    "featured": "Featured",
+    "back": "Back to properties",
+    "description": "Description",
+    "features": "Features",
+    "location": "Location",
+    "bedrooms": "{count, plural, one {# bedroom} other {# bedrooms}}",
+    "bathrooms": "{count, plural, one {# bathroom} other {# bathrooms}}",
+    "area": "{value} m²",
+    "agent": "Your agent",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappMessage": "Hello, I'm interested in: {title}",
+    "call": "Call",
+    "contactAbout": "Interested in this property?",
+    "period": { "month": "month", "year": "year", "night": "night" }
+  },
+  "availability": {
+    "available": "Available",
+    "reserved": "Reserved",
+    "sold": "Sold",
+    "rented": "Rented"
+  },
+  "types": {
+    "house": "House",
+    "villa": "Villa",
+    "apartment": "Apartment",
+    "land": "Land",
+    "commercial": "Commercial",
+    "office": "Office"
+  },
+  "features": {
+    "garden": "Garden",
+    "parking": "Parking",
+    "security": "Security",
+    "water_tank": "Water tank",
+    "furnished": "Furnished",
+    "balcony": "Balcony",
+    "generator": "Backup generator",
+    "land_title": "Land title",
+    "road_access": "Road access",
+    "mountain_view": "Mountain view",
+    "garage": "Garage",
+    "street_front": "Street front",
+    "air_conditioning": "Air conditioning",
+    "swimming_pool": "Swimming pool",
+    "elevator": "Elevator"
+  },
+  "filters": {
+    "listing": "Listing",
+    "all": "All",
+    "sale": "For sale",
+    "rent": "For rent",
+    "type": "Property type",
+    "anyType": "Any type",
+    "city": "City",
+    "anyCity": "Any city",
+    "minPrice": "Min price",
+    "maxPrice": "Max price",
+    "bedrooms": "Bedrooms",
+    "anyBeds": "Any",
+    "sortBy": "Sort by",
+    "search": "Search",
+    "reset": "Reset filters",
+    "sort": {
+      "newest": "Newest",
+      "price_asc": "Price: low to high",
+      "price_desc": "Price: high to low"
+    }
+  },
+  "pagination": {
+    "label": "Pagination",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "gallery": {
+    "open": "Open photo gallery",
+    "close": "Close",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "photo": "Photo {n}",
+    "noPhotos": "No photos yet"
+  },
+  "currency": { "label": "Currency" },
+  "inquiry": {
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "message": "Message",
+    "messagePlaceholder": "Tell us what you are looking for...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent! We will get back to you shortly.",
+    "error": "Something went wrong. Please try again.",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number.",
+      "message": "Please write a message (at least 10 characters)."
+    },
+    "rateLimited": "You have sent several messages recently. Please try again later."
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Questions about a property or want to book a viewing? We are here to help.",
+    "details": "Our details",
+    "formTitle": "Send us a message",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "about": {
+    "title": "About us",
+    "body": "We help families and businesses find, buy, rent and invest in the right property. Our local team knows every neighborhood and guides you at each step, from the first visit to the signing."
+  },
+  "footer": {
+    "tagline": "Trusted real estate, made simple.",
+    "links": "Quick links",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+
+  "errors": {
+    "notFound": {
+      "title": "Page not found",
+      "text": "The page you are looking for doesn't exist or has been moved.",
+      "home": "Back to home",
+      "browse": "Browse properties"
+    },
+    "generic": {
+      "title": "Something went wrong",
+      "text": "An unexpected error occurred. Please try again.",
+      "retry": "Try again",
+      "home": "Back to home",
+      "reference": "Reference: {id}"
+    }
+  },
+
+  "admin": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "properties": "Properties",
+      "inquiries": "Inquiries",
+      "viewSite": "View website",
+      "agents": "Agents",
+      "signOut": "Sign out"
+    },
+    "login": {
+      "title": "Admin sign in",
+      "subtitle": "Sign in with an authorized Google account to manage listings.",
+      "google": "Continue with Google",
+      "error": "Sign-in failed. Make sure you use a Google account authorized for this site."
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "A quick look at your listings and inquiries.",
+      "total": "Total properties",
+      "published": "Published",
+      "featured": "Featured",
+      "newInquiries": "New inquiries",
+      "recent": "Recent inquiries",
+      "none": "No inquiries yet.",
+      "add": "Add property",
+      "viewAll": "View all"
+    },
+    "properties": {
+      "title": "Properties",
+      "subtitle": "Create, edit and publish your listings.",
+      "add": "Add property",
+      "empty": "No properties yet. Add your first listing.",
+      "property": "Property",
+      "price": "Price",
+      "status": "Status",
+      "published": "Published",
+      "draft": "Draft",
+      "featured": "Featured",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "feature": "Mark as featured",
+      "unfeature": "Remove from featured",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Delete \"{title}\"? Its photos will be removed too. This cannot be undone.",
+      "deleted": "Property deleted.",
+      "updated": "Property updated.",
+      "error": "Something went wrong. Please try again."
+    },
+    "inquiries": {
+      "title": "Inquiries",
+      "subtitle": "Messages sent from your website.",
+      "filterAll": "All",
+      "noResults": "No inquiries here.",
+      "about": "About:",
+      "general": "General inquiry",
+      "statusLabel": "Status",
+      "status": {
+        "new": "New",
+        "read": "Read",
+        "replied": "Replied",
+        "closed": "Closed"
+      },
+      "delete": "Delete",
+      "confirmDelete": "Delete this inquiry? This cannot be undone.",
+      "deleted": "Inquiry deleted.",
+      "updated": "Inquiry updated.",
+      "error": "Something went wrong. Please try again.",
+      "rateLimited": "You have sent several messages recently. Please try again later."
+    },
+    "form": {
+      "createTitle": "Add property",
+      "editTitle": "Edit property",
+      "sections": {
+        "content": "Content",
+        "details": "Details",
+        "location": "Location",
+        "features": "Features",
+        "photos": "Photos",
+        "settings": "Settings"
+      },
+      "lang": { "en": "English", "fr": "Français" },
+      "title": "Title",
+      "description": "Description",
+      "type": "Property type",
+      "listing": "Listing",
+      "availability": "Availability",
+      "price": "Price",
+      "currency": "Currency",
+      "rentPeriod": "Rent period",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "area": "Area (m²)",
+      "address": "Address",
+      "city": "City",
+      "region": "Region",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "mapHint": "Click the map to drop a pin, or drag the pin to adjust it.",
+      "clearPin": "Clear pin",
+      "agent": "Agent",
+      "noAgent": "No agent",
+      "published": "Published (visible on the website)",
+      "featured": "Featured on the home page",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "saved": "Property saved.",
+      "invalidField": "Please check this field.",
+      "fixErrors": "Please fix the highlighted fields (check both languages).",
+      "errors": {
+        "unauthorized": "You are not authorized to do this.",
+        "invalid": "Some information is invalid. Please review the form.",
+        "rate": "No exchange rate exists for this currency. Add it to the currency_rates table.",
+        "server": "Something went wrong. Please try again."
+      }
+    },
+    "images": {
+      "drop": "Drag and drop photos here",
+      "browse": "Choose photos",
+      "uploading": "Uploading... {progress}%",
+      "hint": "JPG, PNG or WebP, up to 2 MB each. The first photo is the cover.",
+      "tooMany": "You can add up to {max} photos.",
+      "uploadError": "Upload failed. Please try again.",
+      "cover": "Cover",
+      "makeCover": "Make cover",
+      "moveLeft": "Move left",
+      "moveRight": "Move right",
+      "remove": "Remove"
+    },
+    "agents": {
+      "title": "Agents",
+      "subtitle": "The people clients can contact about your listings.",
+      "add": "Add agent",
+      "empty": "No agents yet. Add your first agent.",
+      "listings": "{count, plural, one {# listing} other {# listings}}",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Delete {name}? Their listings will stay online without an agent.",
+      "deleted": "Agent deleted.",
+      "error": "Something went wrong. Please try again."
+    },
+    "agentForm": {
+      "createTitle": "Add agent",
+      "editTitle": "Edit agent",
+      "name": "Full name",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp number",
+      "email": "Email",
+      "bioEn": "Bio (English)",
+      "bioFr": "Bio (Français)",
+      "photo": "Photo",
+      "choosePhoto": "Choose photo",
+      "removePhoto": "Remove",
+      "uploading": "Uploading...",
+      "uploadError": "Upload failed. Please try again.",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "saved": "Agent saved.",
+      "invalidField": "Please check this field.",
+      "fixErrors": "Please fix the highlighted fields.",
+      "errors": {
+        "unauthorized": "You are not authorized to do this.",
+        "invalid": "Some information is invalid. Please review the form.",
+        "server": "Something went wrong. Please try again."
+      }
+    }
+  }
+}

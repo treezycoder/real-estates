@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793360381704,
+      "tag": "0000_melodic_krista_starr",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793639954823,
+      "tag": "0001_glossy_wasp",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793947281430,
+      "tag": "0002_nebulous_roxanne_simpson",
+      "breakpoints": true
+    }
+  ]
+}
